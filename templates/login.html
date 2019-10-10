@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block body%}
+<div class="container centered">
+  <h1 class="col-4">Login into LibraryGuide!</h1>
+  <form class="col-4">
+    <div class="form-group">
+      <label for="InputUsername">Email or Username</label>
+      <input type="Username" class="form-control" aria-describedby="usernameHelp" placeholder="Enter your email or username">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+  </form>
+</div>
+{% endblock %}
